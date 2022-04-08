@@ -24,6 +24,10 @@
   margin-right: 10px;
 }
 
+.editUser{
+  cursor: pointer;
+}
+
 
 .mainContent{
   width: 100%;
@@ -40,6 +44,8 @@
 
 
 .scheduledEvent{
+  cursor: pointer;
+
   background-color: #f5f5f5;
   border-radius: 10px;
 
@@ -79,6 +85,7 @@
 
 
 .editButtonsBox > button{
+  cursor: pointer;
   width: 50%;
   height: 50px;
   color: black;
@@ -133,4 +140,20 @@
   background-color: darkgray;
   height: 30px;
   text-align: center;
+}
+
+
+
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
