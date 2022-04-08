@@ -8,7 +8,7 @@ function card() {
     const router = useRouter();
     return (
             <div className={styles.scheduledEvent}
-                 onClick={() => router.push('/edit')}>
+                 onClick={() => router.push('/editSchedule')}>
             <div className={styles.leftContent}>
                     <FontAwesomeIcon icon={faStar} />
                 </div>
