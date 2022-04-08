@@ -1,0 +1,36 @@
+.navBar{
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbarAppTitle{
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.navbarUser{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-right: 10px;
+}
+
+
+.mainContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
