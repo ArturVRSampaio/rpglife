@@ -2,17 +2,21 @@ import React from "react";
 import type { NextPage } from 'next'
 import styles from "../styles/Home.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCancel, faCheck, faStar} from "@fortawesome/free-solid-svg-icons";
+import {faCancel, faCheck} from "@fortawesome/free-solid-svg-icons";
+import {useRouter} from "next/router";
 
 
 const Home: NextPage = () => {
+    const router = useRouter()
   return (
       <div>
           <div className={styles.editButtonsBox}>
-              <button className={styles.cancelEditButton }>
+              <button className={styles.cancelEditButton }
+                      onClick={() => router.push('/')}>
                   <FontAwesomeIcon icon={faCancel}/> cancelar
               </button>
-              <button className={styles.acceptEditButton}>
+              <button className={styles.acceptEditButton}
+                  onClick={() => router.push('/')}>
                   <FontAwesomeIcon icon={faCheck}/> aceitar
               </button>
           </div>
