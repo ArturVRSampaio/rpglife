@@ -71,3 +71,66 @@
 }
 
 
+.editButtonsBox{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.editButtonsBox > button{
+  width: 50%;
+  height: 50px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.cancelEditButton{
+  background-color: red;
+}
+.acceptEditButton{
+  background-color: green;
+}
+
+
+.missionTitle{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.missionTitle > input{
+  width: 90%;
+  margin: 0 auto;
+
+  border: none;
+  background-color: darkgray;
+  height: 30px;
+  text-align: center;
+}
+
+.form{
+  padding-top: 20px;
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.form > input{
+  border: none;
+  width: 100%;
+  background-color: darkgray;
+  height: 30px;
+  text-align: center;
+}
